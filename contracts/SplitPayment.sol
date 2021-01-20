@@ -7,7 +7,7 @@ contract SplitPayment {
         owner = _owner;
     }
 
-    function send(address payable[] memory to, uint256[] memory amount)
+    function sendEth(address payable[] memory to, uint256[] memory amount)
         public
         payable
         onlyOwner

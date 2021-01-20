@@ -1,22 +1,28 @@
 {
-  "name": "split-payment",
-  "version": "1.0.0",
-  "description": "",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PaduaC/split-payment-contract.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PaduaC/split-payment-contract/issues"
-  },
-  "homepage": "https://github.com/PaduaC/split-payment-contract#readme"
+    "name": "split-payment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PaduaC/split-payment-contract.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PaduaC/split-payment-contract/issues"
+    },
+    "homepage": "https://github.com/PaduaC/split-payment-contract#readme",
+    "devDependencies": {
+        "web3": "^1.2.1",
+        "webpack": "^4.32.2",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.4.1"
+    }
 }
